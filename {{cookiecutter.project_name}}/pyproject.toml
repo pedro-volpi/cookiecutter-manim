@@ -46,13 +46,3 @@ strict = true
 warn_unused_configs = true
 disallow_subclassing_any = false
 disallow_untyped_defs = true
-
-[[tool.mypy.overrides]]
-module = [
-    "manim",
-    "manim.*"
-]
-ignore_missing_imports = true
-disallow_any_generics = false
-disallow_untyped_calls = false
-disallow_untyped_defs = false
